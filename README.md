@@ -1,2 +1,2 @@
 # RecipeWebsite
-Project from course run by Code First Girls
+Web development project from course run by Code First Girls
