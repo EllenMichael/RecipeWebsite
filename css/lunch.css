@@ -18,32 +18,31 @@ body{
 }
 
 .text-wrapper{
-position: absolute;
-width: 550px;
-height: 350px;
-top: 50%;
-left: 50%;
-transform: translateX(-40%) translateY(-40%);
+    position: absolute;
+    width: 550px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-40%) translateY(-40%);
 
-font-family:league spartan;
-font-style: normal;
-font-weight: 800;
-font-size: 60px;
-line-height: 110px;
-/* or 76% */
-letter-spacing: -0.01em;
+    font-family:league spartan;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 110px;
+    letter-spacing: -0.01em;
 }
 
 .subtext-wrapper{
-position: absolute;
-width: 375px;
-height: 36px;
+    position: absolute;
+    width: 375px;
+    height: 36px;
 
-font-family: Sanchez;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 50px;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 50px;
 }
 
 .ingredients{
@@ -84,11 +83,6 @@ line-height: 50px;
 a:hover {
     color: grey;
 }
-
-/*a.active, a:hover{
-    background-color:cornsilk;
-    transition:.5s;
-}*/
 
 label.logo{
     color: black;
