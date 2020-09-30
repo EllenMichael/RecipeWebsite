@@ -19,7 +19,7 @@ body{
 
 .text-wrapper{
 position: absolute;
-width: 512px;
+width: 550px;
 height: 350px;
 top: 50%;
 left: 50%;
@@ -29,7 +29,7 @@ font-family:league spartan;
 font-style: normal;
 font-weight: 800;
 font-size: 60px;
-line-height: 90px;
+line-height: 110px;
 /* or 76% */
 letter-spacing: -0.01em;
 }
@@ -42,14 +42,14 @@ height: 36px;
 font-family: Sanchez;
 font-style: normal;
 font-weight: normal;
-font-size: 24px;
-line-height: 31px;
+font-size: 25px;
+line-height: 50px;
 }
 
 .ingredients{
     position: absolute;
     width: 200px;
-    top: 90%;
+    top: 110%;
     left: 0%;
         
     font-family: Sanchez;
@@ -63,7 +63,7 @@ line-height: 31px;
     position: absolute;
     /*display: flex;*/
     width: 350px;
-    top: 90%;
+    top: 100%;
     left: 50%;
     
     font-family: Verdana, Geneva, Tahoma, sans-serif;
