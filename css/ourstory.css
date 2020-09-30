@@ -39,10 +39,15 @@ width: 375px;
 height: 36px;
 top: 60%;
 
-font-family: Sanchez;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-style: normal;
+<<<<<<< HEAD
 font-weight: normal;
 font-size: 28px;
+=======
+font-weight: bold;
+font-size: 24px;
+>>>>>>> 12b995540a072b39acba1de4cf14719e02b9e11a
 line-height: 31px;
 }
  
