@@ -29,9 +29,24 @@
                     <h1>tasty, easy & cheap.</h1>
                     <div class="subtext-wrapper">
                         <h6>PLANT-BASED MADE SIMPLE</h6>
+                        <button onclick="myFunction()">Suggest a new recipe</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+  var txt;
+  var person = prompt("Type in the name of the dish", "Stir fry");
+  if (person == null || person == "") {
+    txt = "No problem, maybe next time!";
+  } else {
+    txt = person + "! Great, thank you.";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
                     </div>
                 </div>    
             </div>
+
 
             
         </main>
