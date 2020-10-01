@@ -132,3 +132,31 @@ footer {
     justify-content: center;
 
 }
+
+@media only screen and (max-width: 1000px) {
+    .text-wrapper {
+        font-size: 30px;
+        line-height: 50px;
+        width: 350px;
+        top: 60%;
+        left: 50%;
+    }
+    .subtext-wrapper{top: 30%;}
+    .ingredients{
+        width: 400px;
+        top: 50%;
+        left: -60%;
+            
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .recipe{
+        top: 105%;
+        left: 0%;
+        font-size: 15px;
+        line-height: 15px;  
+    }
+    .content-wrapper img{
+        opacity: 0.60;
+    }
+}
