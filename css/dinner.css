@@ -38,7 +38,8 @@ body{
     position: absolute;
     width: 375px;
     height: 36px;
-    left: 10%;
+    top: 50%;
+    left: 15%;
     
     font-family: Sanchez;
     font-style: normal;
