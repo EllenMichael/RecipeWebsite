@@ -12,26 +12,26 @@ body{
 
 .content-wrapper img{
     opacity: 0.65;
-position: relative;
-width: 1432px;
-/*height: 932px;*/
+    position: relative;
+    width: 1432px;
+    /*height: 932px;*/
 }
  
 .text-wrapper{
-position: absolute;
-width: 512px;
-height: 350px;
-top: 50%;
-left: 50%;
-transform: translateX(-40%) translateY(-40%);
+    position: absolute;
+    width: 512px;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-40%) translateY(-40%);
 
-font-family:league spartan;
-font-style: normal;
-font-weight: 800;
-font-size: 60px;
-line-height: 90px;
-/* or 76% */
-letter-spacing: -0.01em;
+    font-family:league spartan;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 90px;
+    /* or 76% */
+    letter-spacing: -0.01em;
 }
 
 .ingredients{
@@ -49,7 +49,7 @@ letter-spacing: -0.01em;
 
 .recipe{
     position: absolute;
-    width: 600px;
+    width: 400px;
     top: 70%;
     left: 50%;
     
@@ -61,16 +61,16 @@ letter-spacing: -0.01em;
     }
 
 .subtext-wrapper{
-position: absolute;
-width: 375px;
-height: 36px;
-padding-top: 30px;
+    position: absolute;
+    width: 375px;
+    height: 36px;
+    padding-top: 30px;
 
-font-family: Sanchez;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 31px;
+    font-family: Sanchez;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
 }
 
 .navbar{
@@ -130,4 +130,27 @@ footer {
     align-items: center;
     justify-content: center;
 
+}
+
+@media only screen and (max-width: 1000px) {
+    .text-wrapper {
+        font-size: 30px;
+        top: 60%;
+        left: 50%;
+    }
+    .subtext-wrapper{top: 10%;}
+    .ingredients{
+        width: 400px;
+        top: 40%;
+        left: 0%;
+            
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .recipe{
+        top: 75%;
+        left: 0%;
+        font-size: 15px;
+        line-height: 15px;  
+    }
 }
